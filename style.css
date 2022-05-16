@@ -119,9 +119,9 @@ p.info_me{
     margin-right: auto;
 }
 
-div.second {
+/* div.second {
 
-}
+} */
 
 h2 {
     text-align: center;
@@ -194,4 +194,31 @@ div.frame table{
     width: 100px;
     object-fit: cover;
     border: 2px solid white;
+}
+
+div.portfolio-header {
+    height: 90px;
+    background:url(header.jpg) no-repeat center top;
+}
+
+div.portfolio-header .cover_button{
+    position: relative;
+    left: 90%;
+    margin-left: -50px;
+    border: 2px solid var(--color1);
+    background-color: #00000060;
+    color: var(--color1);
+    padding: 8px 12px 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+div.portfolio-header .cover_button:hover{
+    border: 2px solid lightgray;
+    color: lightgray;
+}
+
+div.text-with-vertical-line .header-line-text{
+    color: white;
 }
