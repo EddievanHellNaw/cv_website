@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 
 :root{
     --color1: #D89584;
@@ -6,6 +9,7 @@
 
 body{
     font-family: Arial;
+    line-height: 1.5;
 }
 
 div.cover{
@@ -96,10 +100,24 @@ div.section{
 div.first {
     background: url(triangle2white.svg) no-repeat center bottom / 100%;
     background-color: var(--color2);
-    padding-bottom: 100px;    
+    padding-bottom: 70px;    
 }
 
+div.separator{
+    border-top: 1px solid #979797;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+} 
 
+p.info_me{
+    text-align: center;
+    color: #656565;
+    font-size: 22px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 div.second {
 
@@ -117,3 +135,63 @@ div.third{
     padding-top: 100px;  
 }
 
+.col40{
+    width: 40%;
+}
+
+.col60{
+    width: 60%;
+}
+
+.float-right{
+    float: right;
+}
+
+div.text-with-vertical-line{
+    border-left: 4px solid var(--color1);
+    padding-left: 8px;
+    height: 50px;
+    display: inline-block;
+}
+
+div.text-with-vertical-line p{
+    margin-top: 0px;
+}
+
+div.vertical-bar{
+    height: 50px;
+    width: 4px;
+    background-color: var(--color1);
+    margin-right: 8px;
+}
+
+.col-portfolio{
+    width: 47%;
+}
+
+div.frame{
+    margin: 10px 50px;
+    background-color: white;
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+}
+
+div.frame p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+div.frame table{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+}
+
+.touch_pic{
+    border-radius: 50% 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 2px solid white;
+}
