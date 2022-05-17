@@ -12,6 +12,12 @@ body{
     line-height: 1.5;
 }
 
+iframe{
+    width: 100%;
+    border: none;
+    height: 350px;
+}
+
 div.cover{
     background: url(cover_overlay.png) no-repeat center top/100% 100%,url(cover.jpg) no-repeat center top/cover;
     height: 360px;
@@ -98,7 +104,7 @@ div.section{
 }
 
 div.first {
-    background: url(triangle2white.svg) no-repeat center bottom / 100%;
+    background: url(triangle2white.svg) no-repeat center bottom -1px/ 100%;
     background-color: var(--color2);
     padding-bottom: 70px;    
 }
@@ -198,7 +204,7 @@ div.frame table{
 
 div.portfolio-header {
     height: 90px;
-    background:url(header.jpg) no-repeat center top;
+    background:url(header.jpg) no-repeat center/cover;
 }
 
 div.portfolio-header .cover_button{
@@ -221,4 +227,34 @@ div.portfolio-header .cover_button:hover{
 
 div.text-with-vertical-line .header-line-text{
     color: white;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 8px;
 }
+
+div.portfolio-title h1{
+    text-align: center;
+    font-size: 46px;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+div.portfolio-title h2{
+    font-weight: normal;
+    font-size: 26px;
+    padding-top: 12px;
+    margin-bottom: 0px;
+}
+
+div.first a{
+    color: var(--color1);
+    margin-left: -10px;
+
+}
+
+img.portfolio{
+    width: 70%;
+    max-width: 550px;
+}
+
